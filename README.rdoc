@@ -1,18 +1,30 @@
 = rails3subs
 
-* http://github.com/#{github_username}/#{project_name}
+* http://github.com/CaptDowner/rails3subs
 
 == DESCRIPTION:
 
-FIX (describe your package)
+  A gem to handle substitution of deprecated constants and method names 
+  used in Rails 2 to the newer versions used in Rails 3. 
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* This is preliminary code. 
+  TBD: 
+  0. Write and execute tests. (better late than never ;-)
+  1. Convert it to an executable gem.
+  2. Make command line processing more robust.
+  3. Complete code for command line input.
+  4. Add methods and constants as they become known.
+  5. If a configuration file is missing, add intelligent defaults.
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+  This program does multi-level, global replacement of Rails 2 constants and 
+  method to their Rails 3 counterparts. It contains an input file 
+  which maps the search string and substitutions which is specifically for 
+  Rails 2 to Rails 3 conversions, but could be easily modified to do string 
+  substitutions for any pair of strings.
 
 == REQUIREMENTS:
 
@@ -20,13 +32,13 @@ FIX (describe your package)
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* gem install rails3subs
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2010 FIXME full name
+Copyright (c) 2010 Steve Downie
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
