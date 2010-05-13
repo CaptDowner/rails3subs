@@ -1,0 +1,21 @@
+
+For more information on rails3-subs, see http://rails3subs.rubyforge.org
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ WARNING! WARNING! WARNING! WARNING! WARNING! WARNING! WARNING!
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxXXXXXXXXX
+Please backup all directories and files beneath the current one before excuting this gem 
+as it will make changes that are not easily reversible. What this means is that you'll 
+have to make changes to an Array of Arrays in the source code (currently named SUB_STRS) 
+to reverse all changes made by executing this gem. 
+
+This gem is designed to update older Rails projects to be Rails 3 compatible.
+Execution of this gem does not do a complete update, as there are many other issues to deal with.
+All of the Rails 2 deprecated strings and methods are replaced by their newer Rails 3 counterparts.
+
+This is a work in progress, and as Rails 3 evolves, there may be additional deprecations and changes 
+that could require additional work. My goal is to keep this updated as frequently as my time allows, 
+but there are no guarantees that this version handles the latest Rails 3 revisions.
+
+Hopefully, rails3-subs can help you as you transition your older Rails projects to work with Rails 3.
+
+-- CaptDowner @nospam@ comcast.net

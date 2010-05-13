@@ -1,0 +1,11 @@
+Original:
+Let's-Go-to-the-moon!
+I would like to buy some-gold-from-you.
+Your-white-curtains should be a different color.
+When you are-single-you-are-tired.
+Changed:
+Let's Go to the moon!
+I would like to buy some gold from you.
+Your white curtains should be a different color.
+When you are single you are tired.
+

@@ -1,0 +1,15 @@
+History.txt
+Manifest.txt
+PostInstall.txt
+README.rdoc
+Rakefile
+lib/rails3-subs.rb
+lib/sr.cfg
+lib/sr.rb
+lib/t9.txt
+script/console
+script/destroy
+script/generate
+test/test_helper.rb
+test/test_rails3-subs.rb
+test/test_rails3subs.rb

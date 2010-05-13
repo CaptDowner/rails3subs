@@ -1,0 +1,18 @@
+Original Rails constants and methods                 |  Rails 3 replacements
+-----------------------------------------------------------------------------
+RAILS_ENV                                            => Rails.env
+RAILS_ROOT                                           => Rails.root
+RAILS_CACHE                                          => Rails.cache
+RAILS_DEFAULT_LOGGER                                 => Rails.logger
+filter_parameter_logging                             => config.filter_parameters
+AC::Dispatcher.before_dispath                        => ActionDispatch::Callbacks.before
+AC::Dispatcher.to_prepare                            => config.to_prepare
+AC::Dispatcher                                       => Rails::Application
+config.action_controller.consider_all_requests_local => Rails.application.config.consider_all_requests_local
+config.action_controller.allow_concurrency           => Rails.application.config.allow_concurrency
+benchmark(:level)                                    => benchmark(\"message\", :level => level)
+config.view_path                                     => path.apps.views
+config.routes_configuration_file                     => paths.config_routes
+config.database_configuration_file                   => paths.config.database
+config.controller_paths                              => paths.app.controllers
+config.log_path                                      => paths.log
